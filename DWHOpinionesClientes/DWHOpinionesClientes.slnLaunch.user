@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "DWHOpinionesClientes.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\SocialCommentsAPI\\SocialCommentsAPI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

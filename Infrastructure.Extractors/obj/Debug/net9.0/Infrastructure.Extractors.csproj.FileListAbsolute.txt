@@ -1,0 +1,17 @@
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\bin\Debug\net9.0\Infrastructure.Extractors.deps.json
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\bin\Debug\net9.0\Infrastructure.Extractors.dll
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\bin\Debug\net9.0\Infrastructure.Extractors.pdb
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\obj\Debug\net9.0\Infrastructure.Extractors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\obj\Debug\net9.0\Infrastructure.Extractors.AssemblyInfoInputs.cache
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\obj\Debug\net9.0\Infrastructure.Extractors.AssemblyInfo.cs
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\obj\Debug\net9.0\Infrastructure.Extractors.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\obj\Debug\net9.0\Infrastructure.Extractors.dll
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\obj\Debug\net9.0\refint\Infrastructure.Extractors.dll
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\obj\Debug\net9.0\Infrastructure.Extractors.pdb
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\obj\Debug\net9.0\ref\Infrastructure.Extractors.dll
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\bin\Debug\net9.0\Core.Application.dll
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\bin\Debug\net9.0\Core.Domain.dll
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\bin\Debug\net9.0\Core.Application.pdb
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\bin\Debug\net9.0\Core.Domain.pdb
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\obj\Debug\net9.0\Infrastructure.Extractors.csproj.AssemblyReference.cache
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\obj\Debug\net9.0\Infrastr.5825EC40.Up2Date

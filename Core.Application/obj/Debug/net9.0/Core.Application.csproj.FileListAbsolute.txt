@@ -1,0 +1,15 @@
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Core.Application\bin\Debug\net9.0\Core.Application.deps.json
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Core.Application\bin\Debug\net9.0\Core.Application.dll
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Core.Application\bin\Debug\net9.0\Core.Application.pdb
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Core.Application\obj\Debug\net9.0\Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Core.Application\obj\Debug\net9.0\Core.Application.AssemblyInfoInputs.cache
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Core.Application\obj\Debug\net9.0\Core.Application.AssemblyInfo.cs
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Core.Application\obj\Debug\net9.0\Core.Application.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Core.Application\obj\Debug\net9.0\Core.Application.dll
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Core.Application\obj\Debug\net9.0\refint\Core.Application.dll
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Core.Application\obj\Debug\net9.0\Core.Application.pdb
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Core.Application\obj\Debug\net9.0\ref\Core.Application.dll
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Core.Application\bin\Debug\net9.0\Core.Domain.dll
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Core.Application\bin\Debug\net9.0\Core.Domain.pdb
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Core.Application\obj\Debug\net9.0\Core.Application.csproj.AssemblyReference.cache
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Core.Application\obj\Debug\net9.0\Core.App.01B2A2D7.Up2Date
