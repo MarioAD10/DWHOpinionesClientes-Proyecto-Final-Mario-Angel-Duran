@@ -1,7 +1,10 @@
-﻿namespace Infrastructure.Persistence.Entities.DWH.Fact
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Infrastructure.Persistence.Entities.DWH.Fact
 {
     public class FactSurveyResponseRecord
     {
+        [Key]
         public int SurveyResponseKey { get; set; }      
         public int SurveyQuestionKey { get; set; }    
         public int CustomerKey { get; set; }         

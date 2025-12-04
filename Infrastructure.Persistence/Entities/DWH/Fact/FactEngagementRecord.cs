@@ -1,7 +1,10 @@
-﻿namespace Infrastructure.Persistence.Entities.DWH.Fact
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Infrastructure.Persistence.Entities.DWH.Fact
 {
     public class FactEngagementRecord
     {
+        [Key]
         public int EngagementKey { get; set; }              
         public int CustomerKey { get; set; }           
         public int DateKey { get; set; }            

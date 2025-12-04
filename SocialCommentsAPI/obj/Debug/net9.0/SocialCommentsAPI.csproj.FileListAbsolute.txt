@@ -34,3 +34,4 @@ C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Pro
 C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\SocialCommentsAPI\obj\Debug\net9.0\SocialCommentsAPI.pdb
 C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\SocialCommentsAPI\obj\Debug\net9.0\SocialCommentsAPI.genruntimeconfig.cache
 C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\SocialCommentsAPI\obj\Debug\net9.0\ref\SocialCommentsAPI.dll
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\SocialCommentsAPI\obj\Debug\net9.0\SocialCommentsAPI.sourcelink.json

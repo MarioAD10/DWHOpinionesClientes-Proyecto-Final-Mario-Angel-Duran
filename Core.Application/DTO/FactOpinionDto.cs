@@ -1,4 +1,6 @@
-﻿namespace Core.Application.DTO
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Core.Application.DTO
 {
     public class FactOpinionDto
     {

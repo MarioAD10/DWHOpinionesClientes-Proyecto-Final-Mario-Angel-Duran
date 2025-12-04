@@ -34,19 +34,21 @@ namespace Infrastructure.Persistence.Context
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<FactOpinionRecord>().ToTable("Fact_Opinion");
-            modelBuilder.Entity<FactEngagementRecord>().ToTable("Fact_Engagement");
-            modelBuilder.Entity<FactSurveyResponseRecord>().ToTable("Fact_SurveyResponse");
-            modelBuilder.Entity<FactProductSummaryRecord>().ToTable("Fact_ProductSummary");
+            // ======== DIMENSIONES (Schema: Dimension) ========
+            modelBuilder.Entity<DimCustomerRecord>().ToTable("Dim_Customer", "Dimension");
+            modelBuilder.Entity<DimProductRecord>().ToTable("Dim_Product", "Dimension");
+            modelBuilder.Entity<DimDateRecord>().ToTable("Dim_Date", "Dimension");
+            modelBuilder.Entity<DimChannelRecord>().ToTable("Dim_Channel", "Dimension");
+            modelBuilder.Entity<DimSourceRecord>().ToTable("Dim_Source", "Dimension");
+            modelBuilder.Entity<DimSentimentRecord>().ToTable("Dim_Sentiment", "Dimension");
+            modelBuilder.Entity<DimSurveyQuestionRecord>().ToTable("Dim_SurveyQuestion", "Dimension");
+            modelBuilder.Entity<DimETLBatchRecord>().ToTable("Dim_ETL_Batch", "Dimension");
 
-            modelBuilder.Entity<DimCustomerRecord>().ToTable("Dim_Customer");
-            modelBuilder.Entity<DimProductRecord>().ToTable("Dim_Product");
-            modelBuilder.Entity<DimDateRecord>().ToTable("Dim_Date");
-            modelBuilder.Entity<DimChannelRecord>().ToTable("Dim_Channel");
-            modelBuilder.Entity<DimSourceRecord>().ToTable("Dim_Source");
-            modelBuilder.Entity<DimSentimentRecord>().ToTable("Dim_Sentiment");
-            modelBuilder.Entity<DimSurveyQuestionRecord>().ToTable("Dim_SurveyQuestion");
-            modelBuilder.Entity<DimETLBatchRecord>().ToTable("Dim_ETL_Batch");
+            // ======== HECHOS (Schema: Fact) ========
+            modelBuilder.Entity<FactOpinionRecord>().ToTable("Fact_Opinion", "Fact");
+            modelBuilder.Entity<FactEngagementRecord>().ToTable("Fact_Engagement", "Fact");
+            modelBuilder.Entity<FactSurveyResponseRecord>().ToTable("Fact_SurveyResponse", "Fact");
+            modelBuilder.Entity<FactProductSummaryRecord>().ToTable("Fact_ProductSummary", "Fact");
         }
     }
 }

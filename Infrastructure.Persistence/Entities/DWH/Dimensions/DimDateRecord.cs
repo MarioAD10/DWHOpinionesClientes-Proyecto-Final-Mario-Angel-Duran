@@ -1,10 +1,13 @@
-﻿namespace Infrastructure.Persistence.Entities.DWH.Dimensions
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Infrastructure.Persistence.Entities.DWH.Dimensions
 {
     /// <summary>
     /// Dimensión de fechas para análisis temporal.
     /// </summary>
     public class DimDateRecord
     {
+        [Key]
         public int DateKey { get; set; }                   
         public DateTime FullDate { get; set; }
         public byte Day { get; set; }

@@ -1,7 +1,10 @@
-﻿namespace Infrastructure.Persistence.Entities.DWH.Fact
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Infrastructure.Persistence.Entities.DWH.Fact
 {
     public class FactProductSummaryRecord
     {
+        [Key]
         public int ProductSummaryKey { get; set; }         
         public int DateKey { get; set; }             
         public int ProductKey { get; set; }       

@@ -108,3 +108,4 @@ C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Pro
 C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\DWHOpinionesClientes\bin\Debug\net9.0\System.Formats.Asn1.dll
 C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\DWHOpinionesClientes\bin\Debug\net9.0\System.Text.Json.dll
 C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\DWHOpinionesClientes\bin\Debug\net9.0\Data\surveys_part1.csv
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\DWHOpinionesClientes\obj\Debug\net9.0\DWHOpinionesClientes.sourcelink.json

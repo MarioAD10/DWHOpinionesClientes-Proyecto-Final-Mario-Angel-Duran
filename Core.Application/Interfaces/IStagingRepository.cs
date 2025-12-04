@@ -9,5 +9,7 @@ namespace Core.Application.Interfaces
         Task<int> SaveFactEngagementAsync(IEnumerable<FactEngagementDto> records);
         Task<int> SaveFactProductSummaryAsync(IEnumerable<FactProductSummaryDto> records);
         Task ClearTableAsync(string tableName);
+
+
     }
 }

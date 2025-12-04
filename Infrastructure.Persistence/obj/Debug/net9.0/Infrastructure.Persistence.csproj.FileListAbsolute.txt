@@ -17,3 +17,4 @@ C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Pro
 C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Persistence\obj\Debug\net9.0\Infrastr.56C47081.Up2Date
 C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Persistence\bin\Debug\net9.0\Infrastructure.Persistence.runtimeconfig.json
 C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Persistence\obj\Debug\net9.0\Infrastructure.Persistence.genruntimeconfig.cache
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Persistence\obj\Debug\net9.0\Infrastructure.Persistence.sourcelink.json

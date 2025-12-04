@@ -15,3 +15,4 @@ C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Pro
 C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\bin\Debug\net9.0\Core.Domain.pdb
 C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\obj\Debug\net9.0\Infrastructure.Extractors.csproj.AssemblyReference.cache
 C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\obj\Debug\net9.0\Infrastr.5825EC40.Up2Date
+C:\Users\Owner\Desktop\ITLA\5TO CUATRIMESTRE\Big Data\DWHOpinionesClientes - Proyecto Final\Infrastructure.Extractors\obj\Debug\net9.0\Infrastructure.Extractors.sourcelink.json
