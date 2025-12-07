@@ -73,7 +73,7 @@ namespace DWHOpinionesClientes
             });
 
             // ============================================
-            // REGISTRAR LOADERS (Capa de Carga - L)
+            // REGISTRAR LOADERS 
             // ============================================
             builder.Services.AddScoped<ICustomerDimensionLoader, CustomerDimensionLoader>();
             builder.Services.AddScoped<IProductDimensionLoader, ProductDimensionLoader>();
@@ -83,8 +83,14 @@ namespace DWHOpinionesClientes
             builder.Services.AddScoped<ISentimentDimensionLoader, SentimentDimensionLoader>();
             builder.Services.AddScoped<ISurveyQuestionDimensionLoader, SurveyQuestionDimensionLoader>();
 
+
+            builder.Services.AddScoped<IFactOpinionLoader, FactOpinionLoader>();
+            builder.Services.AddScoped<IFactEngagementLoader, FactEngagementLoader>();
+            builder.Services.AddScoped<IFactProductSummaryLoader, FactProductSummaryLoader>();
+            builder.Services.AddScoped<IFactSurveyResponseLoader, FactSurveyResponseLoader>();
+
             // ============================================
-            // REGISTRAR WORKER (Background Service)
+            // REGISTRAR WORKER
             // ============================================
             builder.Services.AddHostedService<Worker>();
 

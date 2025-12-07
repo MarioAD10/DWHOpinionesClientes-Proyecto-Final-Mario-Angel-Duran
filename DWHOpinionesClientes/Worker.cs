@@ -3,6 +3,9 @@ using Core.Application.DTO.CSVDto;
 using Core.Application.DTO.DBDto;
 using Core.Application.Interfaces;
 using Core.Application.Interfaces.ILoaders;
+using Infrastructure.Persistence.Context;
+using Infrastructure.Persistence.Loaders;
+using Microsoft.EntityFrameworkCore;
 
 namespace DWHOpinionesClientes
 {
@@ -53,6 +56,15 @@ namespace DWHOpinionesClientes
                 _logger.LogInformation("------------------------------------------");
 
                 await LoadDimensionsAsync(csvRecords, dbRecords, apiRecords);
+
+                // ============================
+                // FASE 3: CARGA DE HECHOS (L) 
+                // ============================
+                _logger.LogInformation("------------------------------------------");
+                _logger.LogInformation("FASE 3: CARGA DE HECHOS");
+                _logger.LogInformation("------------------------------------------");
+
+                await LoadFactsAsync(csvRecords, dbRecords, apiRecords);
 
                 // ============================
                 // RESUMEN FINAL
@@ -131,6 +143,7 @@ namespace DWHOpinionesClientes
             using var scope = _serviceProvider.CreateScope();
 
             var sentimentLoader = scope.ServiceProvider.GetRequiredService<ISentimentDimensionLoader>();
+            var surveyQuestionLoader = scope.ServiceProvider.GetRequiredService<ISurveyQuestionDimensionLoader>();
             var sourceLoader = scope.ServiceProvider.GetRequiredService<ISourceDimensionLoader>();
             var channelLoader = scope.ServiceProvider.GetRequiredService<IChannelDimensionLoader>();
             var dateLoader = scope.ServiceProvider.GetRequiredService<IDateDimensionLoader>();
@@ -143,6 +156,13 @@ namespace DWHOpinionesClientes
             _logger.LogInformation("");
             _logger.LogInformation("Cargando catálogo de Sentimientos...");
             await sentimentLoader.InitializeSentimentCatalogAsync();
+
+            // ------------------------------------------
+            //  CARGAR CATÁLOGO DE PREGUNTAS DE ENCUESTA
+            // ------------------------------------------
+            _logger.LogInformation("");
+            _logger.LogInformation("Cargando catálogo de Preguntas de Encuesta...");
+            await surveyQuestionLoader.InitializeSurveyQuestionCatalogAsync();
 
             // ------------------------------------------
             //  CARGAR FUENTES DE DATOS
@@ -186,7 +206,7 @@ namespace DWHOpinionesClientes
             }
 
             // ------------------------------------------
-            // CARGAR PRODUCTOS (CON DATOS ENRIQUECIDOS)
+            // CARGAR PRODUCTOS 
             // ------------------------------------------
             _logger.LogInformation("");
             _logger.LogInformation("Cargando Productos con datos enriquecidos...");
@@ -210,7 +230,6 @@ namespace DWHOpinionesClientes
                 });
             }
 
-            // Agregar productos de DB 
             var dbProductIds = dbRecords
                 .Select(r => r.IdProducto)
                 .Distinct()
@@ -229,7 +248,6 @@ namespace DWHOpinionesClientes
                 });
             }
 
-            // Agregar productos de API 
             var apiProductIds = apiRecords
                 .Select(r => r.IdProducto)
                 .Distinct()
@@ -260,7 +278,6 @@ namespace DWHOpinionesClientes
 
             var customers = new List<Core.Application.DTO.DimDto.CustomerSourceDto>();
 
-            // CAMBIO CRÍTICO: Usar datos enriquecidos del CSV
             var uniqueCustomers = csvRecords
                 .GroupBy(r => new { r.IdCliente, r.NombreCliente })
                 .Select(g => g.First())
@@ -320,5 +337,62 @@ namespace DWHOpinionesClientes
             _logger.LogInformation("");
             _logger.LogInformation("Todas las dimensiones han sido cargadas exitosamente");
         }
+
+        /// <summary>
+        /// FASE 3: Carga todas las tablas de hechos
+        /// </summary>
+        private async Task LoadFactsAsync(
+            IEnumerable<FactOpinionCsvDto> csvRecords,
+            IEnumerable<WebReviewDto> dbRecords,
+            IEnumerable<SocialCommentDto> apiRecords)
+        {
+            using var scope = _serviceProvider.CreateScope();
+
+            var factOpinionLoader = scope.ServiceProvider.GetRequiredService<IFactOpinionLoader>();
+            var factEngagementLoader = scope.ServiceProvider.GetRequiredService<IFactEngagementLoader>();
+            var factProductSummaryLoader = scope.ServiceProvider.GetRequiredService<IFactProductSummaryLoader>();
+            var factSurveyResponseLoader = scope.ServiceProvider.GetRequiredService<IFactSurveyResponseLoader>();
+
+
+            // ------------------------------------------
+            // 1. CARGAR FACT_OPINION
+            // ------------------------------------------
+            _logger.LogInformation("");
+            _logger.LogInformation("Cargando Fact_Opinion...");
+            await factOpinionLoader.LoadOpinionsAsync(csvRecords, dbRecords, apiRecords);
+
+            _logger.LogInformation("");
+            _logger.LogInformation("Todas las tablas de hechos han sido cargadas exitosamente");
+
+
+            // ------------------------------------------
+            // 2. CARGAR FACT_ENGAGEMENT 
+            // ------------------------------------------
+            _logger.LogInformation("");
+            _logger.LogInformation("Cargando Fact_Engagement...");
+            await factEngagementLoader.LoadEngagementAsync(apiRecords);
+
+            _logger.LogInformation("");
+            _logger.LogInformation("Todas las tablas de hechos han sido cargadas exitosamente");
+
+            // ------------------------------------------
+            // 3. CARGAR FACT_PRODUCT_SUMMARY
+            // ------------------------------------------
+            _logger.LogInformation("");
+            _logger.LogInformation("Cargando Fact_ProductSummary...");
+            await factProductSummaryLoader.LoadProductSummaryAsync(csvRecords, dbRecords, apiRecords);
+
+            // ------------------------------------------
+            // 4. CARGAR FACT_SURVEY_RESPONSE 
+            // ------------------------------------------
+            _logger.LogInformation("");
+            _logger.LogInformation("Cargando Fact_SurveyResponse...");
+            await factSurveyResponseLoader.LoadSurveyResponsesAsync(csvRecords);
+
+            _logger.LogInformation("");
+            _logger.LogInformation("Todas las tablas de hechos han sido cargadas exitosamente");
+        }
     }
 }
+
+

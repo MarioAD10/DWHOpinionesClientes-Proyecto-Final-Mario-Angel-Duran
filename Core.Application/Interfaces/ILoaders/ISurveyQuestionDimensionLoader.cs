@@ -8,5 +8,6 @@ namespace Core.Application.Interfaces.ILoaders
         Task<int> LoadQuestionsAsync(IEnumerable<SurveyQuestionDto> questions);
 
         Task<int> GetOrCreateQuestionKeyAsync(string questionText);
+        Task InitializeSurveyQuestionCatalogAsync();
     }
 }

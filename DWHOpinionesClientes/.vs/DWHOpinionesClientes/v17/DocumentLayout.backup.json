@@ -3,24 +3,21 @@
   "WorkspaceRootPath": "C:\\Users\\Owner\\Desktop\\ITLA\\5TO CUATRIMESTRE\\Big Data\\DWHOpinionesClientes - Proyecto Final\\DWHOpinionesClientes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B20A891F-8FAD-448F-9682-0F375E49403A}|..\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj|c:\\users\\owner\\desktop\\itla\\5to cuatrimestre\\big data\\dwhopinionesclientes - proyecto final\\infrastructure.persistence\\loaders\\basedimensionloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B20A891F-8FAD-448F-9682-0F375E49403A}|..\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj|c:\\users\\owner\\desktop\\itla\\5to cuatrimestre\\big data\\dwhopinionesclientes - proyecto final\\infrastructure.persistence\\loaders\\factsurveyresponseloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF9FED78-D88F-478B-A86D-4ABDA9687E83}|..\\Infrastructure.Extractors\\Infrastructure.Extractors.csproj|c:\\users\\owner\\desktop\\itla\\5to cuatrimestre\\big data\\dwhopinionesclientes - proyecto final\\infrastructure.extractors\\extractors\\db\\sqlwebreviewextractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB9C09B7-551F-4868-A826-B1BE4E0304F8}|..\\Core.Application\\Core.Application.csproj|c:\\users\\owner\\desktop\\itla\\5to cuatrimestre\\big data\\dwhopinionesclientes - proyecto final\\core.application\\interfaces\\iloaders\\ifactsurveyresponseloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF9FED78-D88F-478B-A86D-4ABDA9687E83}|..\\Infrastructure.Extractors\\Infrastructure.Extractors.csproj|c:\\users\\owner\\desktop\\itla\\5to cuatrimestre\\big data\\dwhopinionesclientes - proyecto final\\infrastructure.extractors\\extractors\\csv\\csvopinionextractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF9FED78-D88F-478B-A86D-4ABDA9687E83}|..\\Infrastructure.Extractors\\Infrastructure.Extractors.csproj|c:\\users\\owner\\desktop\\itla\\5to cuatrimestre\\big data\\dwhopinionesclientes - proyecto final\\infrastructure.extractors\\extractors\\api\\apisocialcommentsextractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF2516C3-FDDC-4C2A-92BF-CEE0F41F1902}|DWHOpinionesClientes.csproj|c:\\users\\owner\\desktop\\itla\\5to cuatrimestre\\big data\\dwhopinionesclientes - proyecto final\\dwhopinionesclientes\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF2516C3-FDDC-4C2A-92BF-CEE0F41F1902}|DWHOpinionesClientes.csproj|solutionrelative:worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF2516C3-FDDC-4C2A-92BF-CEE0F41F1902}|DWHOpinionesClientes.csproj|c:\\users\\owner\\desktop\\itla\\5to cuatrimestre\\big data\\dwhopinionesclientes - proyecto final\\dwhopinionesclientes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF2516C3-FDDC-4C2A-92BF-CEE0F41F1902}|DWHOpinionesClientes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF2516C3-FDDC-4C2A-92BF-CEE0F41F1902}|DWHOpinionesClientes.csproj|c:\\users\\owner\\desktop\\itla\\5to cuatrimestre\\big data\\dwhopinionesclientes - proyecto final\\dwhopinionesclientes\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF2516C3-FDDC-4C2A-92BF-CEE0F41F1902}|DWHOpinionesClientes.csproj|solutionrelative:worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B20A891F-8FAD-448F-9682-0F375E49403A}|..\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj|c:\\users\\owner\\desktop\\itla\\5to cuatrimestre\\big data\\dwhopinionesclientes - proyecto final\\infrastructure.persistence\\context\\dwopinionescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,77 +40,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BaseDimensionLoader.cs",
-              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\ITLA\\5TO CUATRIMESTRE\\Big Data\\DWHOpinionesClientes - Proyecto Final\\Infrastructure.Persistence\\Loaders\\BaseDimensionLoader.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure.Persistence\\Loaders\\BaseDimensionLoader.cs",
-              "ToolTip": "C:\\Users\\Owner\\Desktop\\ITLA\\5TO CUATRIMESTRE\\Big Data\\DWHOpinionesClientes - Proyecto Final\\Infrastructure.Persistence\\Loaders\\BaseDimensionLoader.cs",
-              "RelativeToolTip": "..\\Infrastructure.Persistence\\Loaders\\BaseDimensionLoader.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Title": "FactSurveyResponseLoader.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\ITLA\\5TO CUATRIMESTRE\\Big Data\\DWHOpinionesClientes - Proyecto Final\\Infrastructure.Persistence\\Loaders\\FactSurveyResponseLoader.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure.Persistence\\Loaders\\FactSurveyResponseLoader.cs",
+              "ToolTip": "C:\\Users\\Owner\\Desktop\\ITLA\\5TO CUATRIMESTRE\\Big Data\\DWHOpinionesClientes - Proyecto Final\\Infrastructure.Persistence\\Loaders\\FactSurveyResponseLoader.cs",
+              "RelativeToolTip": "..\\Infrastructure.Persistence\\Loaders\\FactSurveyResponseLoader.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAYwGYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T01:16:27.796Z",
+              "WhenOpened": "2025-12-06T16:32:26.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SqlWebReviewExtractor.cs",
-              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\ITLA\\5TO CUATRIMESTRE\\Big Data\\DWHOpinionesClientes - Proyecto Final\\Infrastructure.Extractors\\Extractors\\DB\\SqlWebReviewExtractor.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure.Extractors\\Extractors\\DB\\SqlWebReviewExtractor.cs",
-              "ToolTip": "C:\\Users\\Owner\\Desktop\\ITLA\\5TO CUATRIMESTRE\\Big Data\\DWHOpinionesClientes - Proyecto Final\\Infrastructure.Extractors\\Extractors\\DB\\SqlWebReviewExtractor.cs",
-              "RelativeToolTip": "..\\Infrastructure.Extractors\\Extractors\\DB\\SqlWebReviewExtractor.cs",
-              "ViewState": "AgIAAMsAAAAAAAAAAAAUwKAAAAAAAAAAAAAAAA==",
+              "Title": "IFactSurveyResponseLoader.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\ITLA\\5TO CUATRIMESTRE\\Big Data\\DWHOpinionesClientes - Proyecto Final\\Core.Application\\Interfaces\\ILoaders\\IFactSurveyResponseLoader.cs",
+              "RelativeDocumentMoniker": "..\\Core.Application\\Interfaces\\ILoaders\\IFactSurveyResponseLoader.cs",
+              "ToolTip": "C:\\Users\\Owner\\Desktop\\ITLA\\5TO CUATRIMESTRE\\Big Data\\DWHOpinionesClientes - Proyecto Final\\Core.Application\\Interfaces\\ILoaders\\IFactSurveyResponseLoader.cs",
+              "RelativeToolTip": "..\\Core.Application\\Interfaces\\ILoaders\\IFactSurveyResponseLoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T01:15:28.996Z",
+              "WhenOpened": "2025-12-06T16:31:38.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DWOpinionesContext.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\ITLA\\5TO CUATRIMESTRE\\Big Data\\DWHOpinionesClientes - Proyecto Final\\Infrastructure.Persistence\\Context\\DWOpinionesContext.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure.Persistence\\Context\\DWOpinionesContext.cs",
+              "ToolTip": "C:\\Users\\Owner\\Desktop\\ITLA\\5TO CUATRIMESTRE\\Big Data\\DWHOpinionesClientes - Proyecto Final\\Infrastructure.Persistence\\Context\\DWOpinionesContext.cs",
+              "RelativeToolTip": "..\\Infrastructure.Persistence\\Context\\DWOpinionesContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T15:50:41.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CsvOpinionExtractor.cs",
-              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\ITLA\\5TO CUATRIMESTRE\\Big Data\\DWHOpinionesClientes - Proyecto Final\\Infrastructure.Extractors\\Extractors\\CSV\\CsvOpinionExtractor.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure.Extractors\\Extractors\\CSV\\CsvOpinionExtractor.cs",
-              "ToolTip": "C:\\Users\\Owner\\Desktop\\ITLA\\5TO CUATRIMESTRE\\Big Data\\DWHOpinionesClientes - Proyecto Final\\Infrastructure.Extractors\\Extractors\\CSV\\CsvOpinionExtractor.cs",
-              "RelativeToolTip": "..\\Infrastructure.Extractors\\Extractors\\CSV\\CsvOpinionExtractor.cs",
-              "ViewState": "AgIAANoAAAAAAAAAAAAswNcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T01:14:59.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApiSocialCommentsExtractor.cs",
-              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\ITLA\\5TO CUATRIMESTRE\\Big Data\\DWHOpinionesClientes - Proyecto Final\\Infrastructure.Extractors\\Extractors\\API\\ApiSocialCommentsExtractor.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure.Extractors\\Extractors\\API\\ApiSocialCommentsExtractor.cs",
-              "ToolTip": "C:\\Users\\Owner\\Desktop\\ITLA\\5TO CUATRIMESTRE\\Big Data\\DWHOpinionesClientes - Proyecto Final\\Infrastructure.Extractors\\Extractors\\API\\ApiSocialCommentsExtractor.cs",
-              "RelativeToolTip": "..\\Infrastructure.Extractors\\Extractors\\API\\ApiSocialCommentsExtractor.cs",
-              "ViewState": "AgIAALwAAAAAAAAAAAAswGMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T01:14:26.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Worker.cs",
               "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\ITLA\\5TO CUATRIMESTRE\\Big Data\\DWHOpinionesClientes - Proyecto Final\\DWHOpinionesClientes\\Worker.cs",
               "RelativeDocumentMoniker": "Worker.cs",
               "ToolTip": "C:\\Users\\Owner\\Desktop\\ITLA\\5TO CUATRIMESTRE\\Big Data\\DWHOpinionesClientes - Proyecto Final\\DWHOpinionesClientes\\Worker.cs",
               "RelativeToolTip": "Worker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGcBAAAAAAAAAAAYwIQBAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T15:39:12.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\ITLA\\5TO CUATRIMESTRE\\Big Data\\DWHOpinionesClientes - Proyecto Final\\DWHOpinionesClientes\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Owner\\Desktop\\ITLA\\5TO CUATRIMESTRE\\Big Data\\DWHOpinionesClientes - Proyecto Final\\DWHOpinionesClientes\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAwFwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T14:50:09.954Z",
               "EditorCaption": ""

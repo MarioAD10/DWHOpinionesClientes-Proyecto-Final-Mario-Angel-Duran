@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Infrastructure.Persistence.Entities.DWH.Dimensions
 {
@@ -8,6 +9,7 @@ namespace Infrastructure.Persistence.Entities.DWH.Dimensions
     public class DimDateRecord
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int DateKey { get; set; }                   
         public DateTime FullDate { get; set; }
         public byte Day { get; set; }

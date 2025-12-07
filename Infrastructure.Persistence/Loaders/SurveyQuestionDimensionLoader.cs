@@ -19,6 +19,52 @@ namespace Infrastructure.Persistence.Loaders
         {
         }
 
+
+        /// <summary>
+        /// Inicializa el catálogo de preguntas estándar de encuestas.
+        /// </summary>
+        public async Task InitializeSurveyQuestionCatalogAsync()
+        {
+            _logger.LogInformation("Inicializando catálogo de preguntas de encuesta...");
+
+            var standardQuestions = new List<SurveyQuestionDto>
+    {
+        new SurveyQuestionDto
+        {
+            QuestionText = "¿Qué tan satisfecho está con este producto?",
+            QuestionType = "Escala",
+            ScaleMin = 1,
+            ScaleMax = 5
+        },
+        new SurveyQuestionDto
+        {
+            QuestionText = "¿Recomendaría este producto a otros?",
+            QuestionType = "Escala",
+            ScaleMin = 1,
+            ScaleMax = 5
+        },
+        new SurveyQuestionDto
+        {
+            QuestionText = "¿Cómo calificaría la calidad del producto?",
+            QuestionType = "Escala",
+            ScaleMin = 1,
+            ScaleMax = 5
+        },
+        new SurveyQuestionDto
+        {
+            QuestionText = "¿El producto cumplió con sus expectativas?",
+            QuestionType = "Escala",
+            ScaleMin = 1,
+            ScaleMax = 5
+        }
+    };
+
+            await LoadQuestionsAsync(standardQuestions);
+
+            _logger.LogInformation("Catálogo de preguntas de encuesta inicializado");
+        }
+
+
         /// <summary>
         /// Carga múltiples preguntas de encuesta en la dimensión.
         /// </summary>
@@ -36,20 +82,17 @@ namespace Infrastructure.Persistence.Loaders
 
             foreach (var question in questions)
             {
-                // Validar datos básicos
                 if (string.IsNullOrWhiteSpace(question.QuestionText))
                 {
-                    _logger.LogWarning("⚠️ Pregunta sin texto, omitiendo...");
+                    _logger.LogWarning("Pregunta sin texto, omitiendo...");
                     continue;
                 }
 
-                // Buscar pregunta existente por texto
                 var existingQuestion = await _context.DimSurveyQuestion
                     .FirstOrDefaultAsync(q => q.QuestionText == question.QuestionText);
 
                 if (existingQuestion == null)
                 {
-                    // Insertar nueva pregunta
                     var newQuestion = new DimSurveyQuestionRecord
                     {
                         QuestionText = question.QuestionText,
@@ -61,17 +104,16 @@ namespace Infrastructure.Persistence.Loaders
                     await _context.DimSurveyQuestion.AddAsync(newQuestion);
                     insertedCount++;
                 }
-                // No actualizamos preguntas existentes porque no suelen cambiar
             }
 
             if (insertedCount > 0)
             {
                 await SaveChangesAsync();
-                _logger.LogInformation($"✅ {insertedCount} preguntas cargadas.");
+                _logger.LogInformation($"{insertedCount} preguntas cargadas.");
             }
             else
             {
-                _logger.LogInformation("✅ Todas las preguntas ya existen.");
+                _logger.LogInformation("Todas las preguntas ya existen.");
             }
 
             return insertedCount;
